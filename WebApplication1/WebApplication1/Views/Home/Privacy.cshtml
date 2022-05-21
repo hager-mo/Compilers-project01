@@ -1,0 +1,13 @@
+﻿@model WebApplication1.Controllers.Compiler
+
+@using (Html.BeginForm()) {
+<div class="form-floating">
+
+    <textarea class="form-control" id="input"></textarea>
+    <button type="button" class="btn-close" aria-label="Close">Scanner</button>
+    <button type="button" class="btn-close" aria-label="Close">Parser</button>
+    <button type="button" class="btn-close" aria-label="Close">Load</button>
+    <textarea class="form-control"  id="output" disabled></textarea>
+
+</div>
+}
